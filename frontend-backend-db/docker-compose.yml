@@ -20,7 +20,7 @@ services:
       - SPRING_DATASOURCE_PASSWORD=app
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
   db:
-    image: 'postgres:13.4'
+    image: 'postgres:14.3'
     container_name: db
     ports: 
       - 5432:5432
